@@ -18,7 +18,6 @@ Nokia Phone Menu
 13 -> SIM services
 14 -> Back
 """;
-
 prompt2 ="""
 Phone Book
 1 -> Search
@@ -186,7 +185,7 @@ match option:
 				print("Options")
 				option8 = int(input(" " + a))
 				match option8:
-                    			case 1: print("Type of view")
+					case 1: print("Type of view")
 					case 2: print("Memory status")
 					case 3: print(print("" + prompt2))
 				
